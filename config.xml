@@ -76,6 +76,14 @@
 	<feature name="SocialSharing">
 		<param name="ios-package" value="SocialSharing" />
 	</feature>
+	
+	<platform name="ios">
+        	<preference name="Fullscreen" value="false" />
+        	<preference name="orientation" value="portrait" />
+    	</platform>
+	
+	
+	
 	<!-- for Android (you will find one in res/xml) -->
 	<feature name="SocialSharing">
 		<param name="android-package" value="nl.xservices.plugins.SocialSharing" />
