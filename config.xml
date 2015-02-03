@@ -81,13 +81,13 @@
         	<preference name="Fullscreen" value="false" />
         	<preference name="orientation" value="portrait" />
     	</platform>-->
-    	
+    	<platform name="ios">
 	<gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
     		<array>
         		<string>UIInterfaceOrientationPortrait</string>
     		</array>
 	</gap:config-file>
-	
+	</platform>
 	
 	<!-- for Android (you will find one in res/xml) -->
 	<feature name="SocialSharing">
