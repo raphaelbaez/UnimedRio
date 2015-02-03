@@ -76,12 +76,17 @@
 	<feature name="SocialSharing">
 		<param name="ios-package" value="SocialSharing" />
 	</feature>
-	
+	<!--
 	<platform name="ios">
         	<preference name="Fullscreen" value="false" />
         	<preference name="orientation" value="portrait" />
-    	</platform>
-	
+    	</platform>-->
+    	
+	<gap:config-file platform="ios" parent="UISupportedInterfaceOrientations" overwrite="true">
+    		<array>
+        		<string>UIInterfaceOrientationLandscapeOmg</string>
+    		</array>
+	</gap:config-file>
 	
 	
 	<!-- for Android (you will find one in res/xml) -->
